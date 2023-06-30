@@ -1,6 +1,6 @@
 # tech-test-infra
 
-##How to setup the VM
+## How to setup the VM
 
 Just run the deploy_clock_webapp.sh (which is in the resources folder) in debian10-ssh.img VM in the following fashion:
 <pre>
@@ -28,7 +28,7 @@ NOTE: The target VM could be the current VM. For example:
 ./deploy_clock_webapp.sh -i localhost
 </pre>
 
-##How to run the playbooks
+## How to run the playbooks
 
 The above script will run the playbook. But, if you want, you can run only the playbook in thi way:
 <pre>
