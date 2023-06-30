@@ -20,8 +20,8 @@ This script will be:
 4. Add the target VM to the hosts ansible file
 3. Setup the WebApp playbook
 4. Install some dependencies in the target VM
-5. Create a ansible user in the target VM
-6. Run the ansible playbook
+5. Create an ansible user in the target VM
+6. Run the ansible-playbook
 
 NOTE: The target VM could be the current VM. For example:
 
@@ -31,7 +31,7 @@ NOTE: The target VM could be the current VM. For example:
 
 ## How to run the playbooks
 
-The above script will run the playbook. But, if you want, you can run only the playbook in thi way:
+The above script will run the playbook. But, if you want, you can run only the playbook in this way:
 <pre>
 ansible-playbook /etc/ansible/playbooks/web_install.yml --extra-vars "vm_target=$TARGET_IP"
 </pre>
