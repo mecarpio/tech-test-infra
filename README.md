@@ -36,4 +36,4 @@ The above script will run the playbook. But, if you want, you can run only the p
 ansible-playbook /etc/ansible/playbooks/web_install.yml --extra-vars "vm_target=$TARGET_IP"
 </pre>
 
-Where web_install.yml is in the resources folder, and $TARGET_IP is the Ip of the target VM.
+Where web_install.yml is in the resources folder, and $TARGET_IP is the IP of the target VM.
