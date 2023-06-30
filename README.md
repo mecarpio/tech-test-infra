@@ -15,13 +15,14 @@ Usage: ./deploy_clock_webapp.sh -i 192.168.122.110
 </pre>
 
 This script will be:
-1.- Add root keys in the current VM
-2.- Install ansible in the current VM
-4.- Add the target VM to the hosts ansible file
-3.- Setup the WebApp playbook
-4.- Install some dependencies in the target VM
-5.- Create a ansible user in the target VM
-6.- Run the ansible playbook
+1. Add root keys in the current VM
+2. Install ansible in the current VM
+4. Add the target VM to the hosts ansible file
+3. Setup the WebApp playbook
+4. Install some dependencies in the target VM
+5. Create a ansible user in the target VM
+6. Run the ansible playbook
+
 NOTE: The target VM could be the current VM. For example:
 
 <pre>
