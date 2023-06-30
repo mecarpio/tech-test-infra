@@ -21,7 +21,7 @@ This script will be:
 3. Setup the WebApp playbook
 4. Install some dependencies in the target VM
 5. Create an ansible user in the target VM
-6. Run the ansible-playbook
+6. Run the ansible-playbook with the ansible user
 
 NOTE: The target VM could be the current VM. For example:
 
